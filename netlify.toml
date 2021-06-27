@@ -1,0 +1,6 @@
+[build]
+    command = "npm run build && cd functions/bookmark && npm install"
+    publish= "public"
+    functions = "functions"
+
+    
